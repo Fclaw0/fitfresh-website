@@ -15,9 +15,9 @@ Brand color: #e67e22
 ### Summary
 
 The food subscription catered to casual gym-goers, avid fitness
-enthusiasts, or even pro bodybuilders. FitFresh is for those who want
-to build and maintain muscle without the headache of preparing your
-own meals, catered to your personal fitness goals.
+enthusiasts, or even pro bodybuilders. Build and maintain muscle
+without the headache of preparing your own meals. Catered to your
+personal fitness goals.
 
 ### FitFresh features
 
