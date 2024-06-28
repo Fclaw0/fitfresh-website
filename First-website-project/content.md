@@ -8,7 +8,7 @@ We are a technology company first, but with a major focus on consumer well-being
 
 Headline: Daily food delivery, daily protein requirements
 
-Brand color: #e67e22
+Brand color: #21565c
 
 ## FitFresh Website Content
 
@@ -27,15 +27,15 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 
 ### How FitFresh works
 
-[Show big app images]
+[Show big images]
 
-**Your daily dose of health in 3 simple steps**
+**Our service, and the science behind it**
 
-Tell us what you like (and what not): Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
+Provide us with your bodyweight and fitness goals: Our AI will provide you a weekly personalized meal plan according to your fitness goals, consisting of the proper macros (protein, fats, and carbs), so you can achieve your goals easily with no extra hassle
 
-Approve your weekly meal plan: Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.
+Once provided your weekly meal plan, approve it. You'll be able to change any of the ingredients to suit your specific caloric intake and macro requirements based on our suggestions and research.
 
-Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
+Receive or schedule your meal. The closest chef to you will begin preparing your daily meal and we will aim to deliver it to you whenever you'd like. You can also change your delivery schedule and address.
 
 ### FitFresh works with any diet
 
