@@ -27,6 +27,7 @@ Paragraph default: 1.6
 - Shades: #143437
 - Accents:  
 - Greys: 
+#6F6F6F (lightest grey allowed on #a0b8bb
 #1C1C1C
 #333
 
@@ -77,6 +78,16 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -189,6 +200,27 @@ body {
   color:#143437;
   border-bottom: 1px solid transparent;
 }
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color:#21565c;
+}
+
 
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
