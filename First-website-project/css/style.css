@@ -222,7 +222,7 @@
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
@@ -230,7 +230,7 @@
 
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
@@ -273,10 +273,10 @@
 }
 
 .meal-attributes {
-list-style: none;
-display: flex;
-flex-direction: column;
-gap: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .meal-attribute {
@@ -336,14 +336,14 @@ gap: 2rem;
 }
 
 .testimonial-name {
-font-size: 1.6rem;
-color: #6F6F6F;
+  font-size: 1.6rem;
+  color: #6f6f6f;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;  
+  gap: 1.6rem;
   padding: 1.6rem;
 }
 
@@ -381,27 +381,26 @@ color: #6F6F6F;
 }
 
 .pricing-plan--complete {
-  background-color:#a0b8bb;
+  background-color: #a0b8bb;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
 .pricing-plan--complete::after {
-content: "Best value";
-position: absolute;
-top: 6%;
-right: -18%;
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
 
-text-transform: uppercase;
-font-size: 1.4rem;
-font-weight: 700;
-color: #333;
-background-color:#ffd435;
-padding: 0.8rem 8rem;
-transform: rotate(45deg);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd435;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
 }
-
 
 .plan-header {
   text-align: center;
@@ -409,18 +408,17 @@ transform: rotate(45deg);
 }
 
 .plan-name {
-  color:#143437;
+  color: #143437;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
-
 }
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
-  color:#333;
+  color: #333;
   margin-bottom: 1.6rem;
 }
 
@@ -433,10 +431,36 @@ transform: rotate(45deg);
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
-  color:#6F6F6F;
+  color: #6f6f6f;
 }
 
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  color: #21565c;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #a0b8bb;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
