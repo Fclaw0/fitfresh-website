@@ -23,8 +23,12 @@ Paragraph default: 1.6
 --- 02 COLORS
 
 - Primary: #21565c
-- Tints: #a0b8bb
-- Shades: #143437
+- Tints: 
+#a0b8bb
+#4d787d
+- Shades: 
+#143437
+#0a1a1c;
 - Accents:  
 - Greys: 
 #6F6F6F (lightest grey allowed on #a0b8bb
@@ -32,6 +36,8 @@ Paragraph default: 1.6
 #333
 
 --- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER-RADIUS
 
@@ -142,6 +148,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -152,10 +159,14 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
   /* Put transition on original "state" */
   transition: all 0.3s;
   /* transition: background-color 0.3s; */
-
 }
 
 .btn--full:link,
@@ -185,10 +196,22 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #21565c;
+  color: #fff;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
-  color:#21565c;
+  color: #21565c;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -197,7 +220,7 @@ body {
 
 .link:hover,
 .link:active {
-  color:#143437;
+  color: #143437;
   border-bottom: 1px solid transparent;
 }
 
@@ -218,9 +241,15 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color:#21565c;
+  color: #21565c;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(33, 86, 92, 0.5);
+  /* outline: 4px dotted #21565c; */
+  /* outline-offset: 8px; */
+}
 
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
