@@ -543,7 +543,15 @@
   color: #eee;
 }
 
-.cta *:focus {
+.cta  *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(160, 184, 187, 0.5);
+}
+
+/*****************************/
+/* FOOTER SECTION */
+/*****************************/
+
+.footer {
+  padding: 9.6rem 0;
 }
