@@ -1,6 +1,7 @@
 # fitfresh-website
 <br> An AI meal prep service for those into fitness. This is my first personal project.
-<br> ** Heavily Inspired by Omnifood by Jonas Schmedtmann **
+<br> I used HTML, CSS, JS, Paint.net, and Figma
+<br> ** Heavily Inspired by Omnifood, created by Jonas Schmedtmann **
 <br> Link: https://fclaw0.github.io/fitfresh-website/First-website-project
 <br>
 ![gif1](https://github.com/user-attachments/assets/81d1932b-ab8b-4cdb-9e16-302c3048687b)
