@@ -178,11 +178,13 @@
 .carousel-primary {
   display: flex;
   justify-content: space-around;
+  gap: 4rem;
   animation: scroll-horizontal 20s linear infinite;
 }
 
 .carousel-secondary {
   display: flex;
+  gap: 4rem;
   animation: scroll-horizontal 20s linear infinite;
   animation-delay: 10s;
 }
