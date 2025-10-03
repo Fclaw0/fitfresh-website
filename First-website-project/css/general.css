@@ -260,7 +260,7 @@ body {
   color: #21565c;
 }
 
-*:focus {
+*:focus-visible {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(33, 86, 92, 0.5);
   /* outline: 4px dotted #21565c; */
