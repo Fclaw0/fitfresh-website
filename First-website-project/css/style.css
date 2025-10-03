@@ -164,39 +164,7 @@
 
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
-}
-
-.carousel-primary,
-.carousel-secondary {
-  left: 100%;
-  width: 100%;
   overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-}
-
-.carousel-primary {
-  display: flex;
-  justify-content: space-around;
-  gap: 4rem;
-  animation: scroll-horizontal 20s linear infinite;
-}
-
-.carousel-secondary {
-  display: flex;
-  gap: 4rem;
-  animation: scroll-horizontal 20s linear infinite;
-  animation-delay: 10s;
-}
-
-@keyframes scroll-horizontal {
-  0% {
-    left: 100%;
-  }
-
-  100% {
-    left: -100%;
-  }
 }
 
 .carousel-primary:hover,
@@ -223,6 +191,29 @@
 
 .logos {
   display: flex;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-primary {
+  display: flex;
+  gap: 15rem;
+  animation: scroll-horizontal 30s linear infinite;
+  width: max-content;
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
 }
 
 .wired-logo,
@@ -234,6 +225,7 @@
   height: 3.2rem;
   filter: brightness(0%);
   opacity: 50%;
+  flex-shrink: 0;
 }
 
 /*****************************/
