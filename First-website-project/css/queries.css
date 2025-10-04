@@ -338,6 +338,10 @@
   .btn-mobile-nav {
     right: 3.2rem;
   }
+
+  .logo {
+    height: 6rem;
+  }
 }
 
 /* - FONT SIZE SYSTEM (px)
